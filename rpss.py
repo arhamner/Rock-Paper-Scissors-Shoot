@@ -13,22 +13,22 @@ while still_playing == False:
         print("Tie!")
     elif player_choice == "Rock":
         if computer == "Paper":
-            print("You lose!", computer, "covers", player_choice)
+            print("Loser!", computer, "covers", player_choice)
         else:
             print("You win!", player_choice, "smashes", computer)
     elif player_choice == "Paper":
         if computer == "Scissors":
-            print("You lose!", computer, "cut", player_choice)
+            print("loser!", computer, "cut", player_choice)
         else:
             print("You win!", player_choice, "covers", computer)
     elif player_choice == "Scissors":
         if computer == "Rock":
-            print("You lose!", computer, "smashes", player_choice)
+            print("Loser!", computer, "smashes", player_choice)
         else:
              print("You win!", player_choice, "cut", computer)
     elif player_choice == "Shoot":
         if computer == "Scissors":
-            print("You lose!", computer, "Got you first", player_choice)
+            print("Loser!", computer, "Got you first", player_choice)
         else:
             print("You win!", player_choice, "knife to a gun fight", computer)
 else:
